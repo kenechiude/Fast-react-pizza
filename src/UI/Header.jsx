@@ -3,7 +3,7 @@ import SearchOrder from "../features/order/SearchOrder";
 
 export default function Header() {
   return (
-    <header>
+    <header className="flex justify-between bg-yellow-500 p-6">
       <Link to="/">Fast React Pizza Co.</Link>
       <SearchOrder />
       <p>Jonas</p>
